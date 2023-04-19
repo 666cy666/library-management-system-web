@@ -1,0 +1,29 @@
+{
+  "name": "library_system",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --open",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.1.0",
+    "axios": "^1.3.5",
+    "element-plus": "^2.3.3",
+    "mitt": "^3.0.0",
+    "nprogress": "^0.2.0",
+    "pinia": "^2.0.34",
+    "vue": "^3.2.47",
+    "vue-router": "^4.1.6"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.1.0",
+    "sass": "^1.62.0",
+    "sass-loader": "^13.2.2",
+    "unplugin-auto-import": "^0.15.3",
+    "unplugin-vue-components": "^0.24.1",
+    "vite": "^4.2.0"
+  }
+}
